@@ -1,24 +1,32 @@
 body{
-    background-color:black !important;
+    background-color: #E2A379!important;
   /*   display:flex; */
+  /* I change the backgriund-color */
   }
 
   .carousel-inner{
     /* border:1px solid Orange; */
-    box-shadow: 0 0 20px green;
+    /* box-shadow: 0 0 20px green; */
+  }
+
+  .carousel-item{
+    height: 700px;
   }
   
+  .carousel-item img{
+    height: 100%;
+    
+  }
   .carousel{
     display:flex;
     width:100%;
+    box-shadow: 0 0 20px black;
   }
   
   .card1, .card2, .card3{
     padding-top:100px;
     width:100%;
     color:white;
-   
-    
   }
   
   .card-img-top{
@@ -35,25 +43,24 @@ body{
   }
   
   .card-title, .card-text{
-    margin-top:30px;
-  }
-  
-  .btn btn-primary{
-    backgroun-color:orange;
+    margin-top:20px;
   }
   
   .img-row{
-    width: 60% !important;
-    padding: 0 !important;
+    width: 100% !important;
+    padding: 0px !important;
     margin: auto !important;
-  /*   display: flex; */
-  /*   justify-content: center; */
+    /* border: 1px solid #000;
+    display: flex;
+    justify-content: center; */
+   
   }
   
   .row{
     margin-top: 30px !important;
     width: 100% !important;
     text-align: center;
+    margin-bottom: 100px;
     
   }
   
@@ -62,9 +69,14 @@ body{
   } */
   
   .col-4{
-  /*   width: 33%; */
-  margin: 0 !important;
-    padding: 0 !important;
+    width: 25% !important;
+    margin: auto !important;
+    padding: 25px !important;
+    /* i change the box color to white */
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+    
   }
   
   .row img{
@@ -72,21 +84,22 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 15px white;
+    box-shadow: 0 0 15px black;
     /* border: 1px solid white */
   }
   
   .card-title{
-    color: white;
+    color: #E2A379;
   }
   
   .card-text{
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
   }
 
 .nav-link{
-    color: white !important;
+    color:white !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .fox{
@@ -100,7 +113,10 @@ margin-top: 10px;
  }
 
  h1{
-    color: white;
+  /* i change text color tp black */
+    color:black;
     text-align: center;
     padding-top: 50px;
  }
+
+ 
